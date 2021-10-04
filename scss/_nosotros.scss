@@ -1,0 +1,22 @@
+.nosotros__titulo {
+    background-color: rgb(120, 85, 100);
+    font-size: 200%*2;
+    text-align: center;
+    color: whitesmoke;
+    padding: 8%;
+}
+
+.imagenesCar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.nosotros__parrafo {
+    font-size: 200%;
+    text-align: center;
+    padding: 2% 10%;
+    background-color: rgb(120, 85, 100);
+    color: whitesmoke;
+}

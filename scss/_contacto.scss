@@ -1,0 +1,73 @@
+.contacto {
+    background-color: rgb(122, 100, 104);
+    color: rgb(252, 220, 227);
+}
+
+.contacto__titulo {
+    font-size: 30px;
+    text-align: left;
+    height: 5vh;
+    padding: 2% 2%;
+    width: 100%;
+}
+
+.contacto__parrafo{
+    font-size: 20px;
+    background-color: rgb(122, 100, 104);
+    padding: 2% 2%;
+    text-align: left;
+    color: rgb(252, 220, 227);
+}
+
+.contact__formulario {
+    background-image: url(/imagenes/fondocontact.jpg);
+    width: 400px;
+    padding: 6%;
+    margin: 3% 3%;
+    margin: auto;
+    box-shadow: 7px 13px 37px black;
+    font-size: 13px;
+    height: 95vh;
+}
+
+.contact__titulo {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control {
+    width: 100%;
+    background-color: rgb(241, 216, 221);
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.botonEnviar {
+    @include boton (rgb(231, 184, 193), 2px solid white)
+}
+
+.botonBorrar {
+    @include boton (rgb(122, 100, 104), 2px solid black)
+}
+
+.botonFormulario:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: all cubic-bezier(.67, .70, .80, 1) .4s;
+}
+
+.botonFormulario:active {
+    transform: translateY(10px);
+}
+
+.control:focus{
+    height: 50px;
+}
+

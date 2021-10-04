@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fdebef;
+}
+
+header img {
+  width: 30%;
+  margin-left: 10rem;
+}
+
+.inicio {
+  background-color: #a07186;
+}
+
+.navegador {
+  font-size: 200%;
+}
+.navegador a {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #a07186;
+  font-size: 150%;
+  padding: 1rem;
+}
+
+.footer__iconos {
+  justify-content: center;
+  align-items: center;
+}
+.footer__iconos img {
+  width: 3%;
+}
+
+.desarrollo {
+  font-size: 70%;
+  text-align: right;
+}
+.desarrollo .desarrollo__parrafo {
+  font-weight: bold;
+}
+
+.error {
+  font-size: 500%;
+  text-align: center;
+  font-weight: bold;
+  padding: 2% 0;
+}
+
+.error__parrafo {
+  font-size: 300%;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.error__imagenes img {
+  width: 30%;
+  border-radius: 100%;
+  padding: 1% 0;
+}
+
+.error__imagenes {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.error__inicio {
+  display: flex;
+  justify-content: center;
+}
+
+.error__inicio a {
+  font-size: 200%;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #7a6468;
+  padding: 2% 0;
+}
+
+.bienvenidos {
+  margin: 5%;
+}
+.bienvenidos img {
+  padding: 0 1rem;
+  width: 350px;
+}
+
+.bienvenidos__titulo {
+  font-size: 350%;
+  text-align: center;
+  color: #633841;
+  padding: 1rem;
+}
+
+.bienvenidos__parrafo {
+  font-size: 200%;
+  text-align: center;
+  padding: 2rem;
+  align-items: center;
+}
+
+.nosotros__titulo {
+  background-color: #785564;
+  font-size: 400%;
+  text-align: center;
+  color: whitesmoke;
+  padding: 8%;
+}
+
+.imagenesCar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nosotros__parrafo {
+  font-size: 200%;
+  text-align: center;
+  padding: 2% 10%;
+  background-color: #785564;
+  color: whitesmoke;
+}
+
+.productos {
+  height: 200vh/2;
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 5%;
+  align-items: center;
+}
+.productos article {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.productos img {
+  border: none;
+  border-radius: 20%;
+  padding: 3%;
+}
+.productos p {
+  width: 60%;
+  height: 90%;
+  padding: 8% 0%;
+  text-align: center;
+  font-size: 200%;
+}
+
+.productos__titulo {
+  color: black;
+  text-align: center;
+  font-size: 350%;
+  padding: 5%;
+}
+
+.frecuente__preguntas {
+  font-size: 350%;
+  background-color: #785564;
+  color: whitesmoke;
+  text-align: center;
+  height: 20vh;
+  padding: 4rem;
+}
+
+.lista__preguntas {
+  font-size: 180%;
+  list-style: none;
+  padding: 2rem;
+}
+.lista__preguntas li {
+  font-weight: bold;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.lista__preguntas li p {
+  font-weight: normal;
+  padding: 2rem;
+}
+
+.contacto {
+  background-color: #7a6468;
+  color: #fcdce3;
+}
+
+.contacto__titulo {
+  font-size: 30px;
+  text-align: left;
+  height: 5vh;
+  padding: 2% 2%;
+  width: 100%;
+}
+
+.contacto__parrafo {
+  font-size: 20px;
+  background-color: #7a6468;
+  padding: 2% 2%;
+  text-align: left;
+  color: #fcdce3;
+}
+
+.contact__formulario {
+  background-image: url(/imagenes/fondocontact.jpg);
+  width: 400px;
+  padding: 6%;
+  margin: 3% 3%;
+  margin: auto;
+  box-shadow: 7px 13px 37px black;
+  font-size: 13px;
+  height: 95vh;
+}
+
+.contact__titulo {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.control {
+  width: 100%;
+  background-color: #f1d8dd;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border: 1px solid black;
+  font-size: 13px;
+}
+
+.botonEnviar {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #e7b8c1;
+  border: 2px solid white;
+}
+
+.botonBorrar {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #7a6468;
+  border: 2px solid black;
+}
+
+.botonFormulario:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  transition: all cubic-bezier(0.67, 0.7, 0.8, 1) 0.4s;
+}
+
+.botonFormulario:active {
+  transform: translateY(10px);
+}
+
+.control:focus {
+  height: 50px;
+}/*# sourceMappingURL=style.css.map */

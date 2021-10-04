@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(253, 235, 239);
+}
+
+header img {
+    width: 30%;
+    margin-left: 10rem;
+}
+
+.inicio {
+    background-color: rgb(160, 113, 134);
+}
+
+.navegador {
+    font-size: 200%;
+
+    a {
+        margin: 0 2rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.footer {
+    background-color:rgb(160, 113, 134);
+    font-size: 150%;
+    padding: 1rem;
+}
+
+.footer__iconos {
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 3%;
+    }
+}
+
+.desarrollo {
+    font-size: 70%;
+    text-align: right;
+    
+    .desarrollo__parrafo {
+        font-weight: bold;
+    }
+}
